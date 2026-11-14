@@ -6,7 +6,19 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.env
+# Visual Studio local settings
+.vs/
 
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local databases
+database.sqlite
+*.db
+*.sqlite
 node_modules
 dist
 dist-ssr
